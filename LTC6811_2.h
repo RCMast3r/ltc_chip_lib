@@ -6,18 +6,18 @@
 #ifdef HT_DEBUG_EN
 #endif
 
-#include "registers/Reg_Group_Aux_A.h"
-#include "registers/Reg_Group_Aux_B.h"
-#include "registers/Reg_Group_Cell_A.h"
-#include "registers/Reg_Group_Cell_B.h"
-#include "registers/Reg_Group_Cell_C.h"
-#include "registers/Reg_Group_Cell_D.h"
-#include "registers/Reg_Group_COMM.h"
-#include "registers/Reg_Group_Config.h"
-#include "registers/Reg_Group_PWM.h"
-#include "registers/Reg_Group_S_Ctrl.h"
-#include "registers/Reg_Group_Status_A.h"
-#include "registers/Reg_Group_Status_B.h"
+#include "Register Groups/Reg_Group_Aux_A.h"
+#include "Register Groups/Reg_Group_Aux_B.h"
+#include "Register Groups/Reg_Group_Cell_A.h"
+#include "Register Groups/Reg_Group_Cell_B.h"
+#include "Register Groups/Reg_Group_Cell_C.h"
+#include "Register Groups/Reg_Group_Cell_D.h"
+#include "Register Groups/Reg_Group_COMM.h"
+#include "Register Groups/Reg_Group_Config.h"
+#include "Register Groups/Reg_Group_PWM.h"
+#include "Register Groups/Reg_Group_S_Ctrl.h"
+#include "Register Groups/Reg_Group_Status_A.h"
+#include "Register Groups/Reg_Group_Status_B.h"
 #include "option_enums.h"
 
 class LTC6811_2 {
